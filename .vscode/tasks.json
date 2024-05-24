@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build",
+        "type": "shell",
+        "command": "/usr/bin/g++",  // Altere para o caminho correto do g++ se necessário
+        "args": [
+          "-g",
+          "${file}",
+          "-o",
+          "${workspaceFolder}/a.out"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": ["$gcc"]
+      }
+    ]
+  }
