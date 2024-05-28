@@ -1,7 +1,6 @@
 // 1068 - Balanço de Parênteses I
 
 #include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
 
 typedef struct {
