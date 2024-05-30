@@ -1,4 +1,5 @@
 // 1036 - Fórmula de Bhaskara
+
 #include <stdio.h>
 #include <math.h>
 
