@@ -53,7 +53,7 @@ int main() {
         int k = j;
         
         int h = j*2;
-        int tst = strlen(strResult);
+
         for(j = k; j < maiorStrLen; j++){
             strResult[h] = maiorSTR[j];
             h++;
